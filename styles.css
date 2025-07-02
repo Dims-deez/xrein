@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .menu-title {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .menu-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-items li {
+    margin-left: 20px;
+  }
+  
+  .menu-items a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .menu-items a:hover {
+    color: #00ccff;
+  }
+  
